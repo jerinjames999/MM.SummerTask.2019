@@ -1,0 +1,132 @@
+
+
+/*.wrapper{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+.owl-carousel .owl-wrapper-outer{
+       overflow: hidden;
+       position: relative;
+       width: 100%;
+       z-index: 1; 
+}
+.owl-item { 
+     transform: translateZ(0);
+     -webkit-transform: translateZ(0); 
+     -ms-transform: translateZ(0);
+ }*/
+
+
+.bignews figure{
+    max-width: 40%;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.bignews figure figcaption{
+    line-height: 13px;
+    margin: 0 5px;
+}
+.main-nav{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.navrow{
+    margin-top: 5px;
+}
+.comnews{
+    min-height: 120px;
+}
+.lineafter:after{
+    
+    display: block;
+    height: 2px;
+    background-color: rgba(130, 129, 129, 0.88);
+    content: " ";
+    width: 100%;
+    margin:5px auto 5px auto;
+    
+}
+.linebefore:before{
+    
+    display: block;
+    height: 1px;
+    background-color: rgba(130, 129, 129, 0.88);
+    content: " ";
+    width: 100%;
+    margin:0 auto 5px auto;
+    
+}
+.smlnews{
+    background-color: #ededed;
+    
+}
+.smlnew{
+    background-color: #ededed;
+}
+
+.smlbnews{
+    background-color: #ededed;
+}
+/************************************************************************************************************************/
+p,h3{
+    vertical-align: middle;
+}
+.containimg img{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 90%;
+}
+.notes{
+    height: 100%;
+}
+
+.reactnav{
+    float: right;
+}
+.reactnav p{
+    margin-right: 15px;
+}
+.reactnav:before{
+    
+    display: block;
+    height: 1px;
+    background-color: rgba(209, 205, 205, 0.83);
+    content: " ";
+    width: 100%;
+    margin:0 auto 5px auto;
+    
+}
+.smlnews:after{
+    
+    display: block;
+    height: 1px;
+    background-color: rgba(209, 205, 205, 0.83);
+    content: " ";
+    width: 100%;
+    margin:0 auto 0 auto;
+    
+}
+.line{
+ border-right: solid 1px rgba(209, 205, 205, 0.83);   
+}
+@media (max-width: 768px){
+    .line:after{
+    display: block;
+    height: 1px;
+    background-color: rgba(209, 205, 205, 0.83);
+    content: " ";
+    width: 100%;
+    margin:0 auto 0 auto;
+    }
+}
+
+/************************************************************************************************************/
+.newstext,
+.newstext:hover{
+    text-decoration:none;
+    color: black;
+}

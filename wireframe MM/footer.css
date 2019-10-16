@@ -1,0 +1,45 @@
+.content:before
+{
+    display: block;
+    height: 3px;
+    background-color: rgba(130, 129, 129, 0.88);
+    content: " ";
+    width: 100%;
+    margin:0 auto;
+}
+.content:after
+{
+    display: block;
+    height: 2px;
+    background-color: rgba(204, 204, 204, 0.88);
+    content: " ";
+    width: 100%;
+    margin:0 auto;
+}
+.fsubrow{
+padding-left: 40%;
+}
+.fsubrow a{
+    color: #585858;
+}
+.fnav ul{
+    list-style: none;
+    margin-left: 18%;
+}
+.fnav ul li{
+float: left;
+line-height: 40px;
+    padding-right: 5%
+}
+.fnav a{
+color: #808080;
+}
+nav li a{
+      line-height: 20px; 
+    }
+.frow{
+    background-color: #e6e6e6;
+}
+.fnav{
+    background-color: #f1f1f1;
+}

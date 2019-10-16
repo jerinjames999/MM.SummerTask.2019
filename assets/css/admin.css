@@ -1,0 +1,11 @@
+
+.error {
+color: red;
+font-weight: 500;
+font-size: 13px;
+}
+.adminmenu {
+background-color: blueviolet;
+border-right: 10px solid black;
+}
+          

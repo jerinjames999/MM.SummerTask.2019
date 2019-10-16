@@ -1,0 +1,35 @@
+.newshead{
+    min-height: 70px;
+}
+.explanation{
+    color: #000000;
+    font-weight:400;
+    font-family:serif;
+    font-size: 21px;
+    line-height: 22px;
+    word-spacing: 3px;
+    
+}
+.pollsection:after{
+    display: block;
+    height: 2px;
+    background-color: rgba(130, 129, 129, 0.88);
+    content: " ";
+    width: 100%;
+    margin:0 auto;
+}
+.poll{
+    background-color: #a796a0;
+}
+.articlepage{
+margin:0 3% 0 3%;}
+.mostpplur img{
+    height: 100px;
+    width: 100px;
+}
+.mostpplur .row{
+margin-bottom: 20px;
+}
+.mostpplur h3{
+    font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.row{
+ min-height: 40px;   
+}
+.heading{
+    padding: 2%;
+}
+.gfsingup img{
+    max-height: 40px;
+}
+.recaptua p{
+    display: inline;
+    background-color: antiquewhite;
+}
